@@ -28,7 +28,7 @@ const CartItems = ({
       </View>
       <View>
       <TouchableOpacity onPress={()=>DeleteItem()}>
-      <Image source={icons.smallcancel} style={styles.Cancel} resizeMode="contain" /></TouchableOpacity>
+      <Image source={icons.smallCancel} style={styles.Cancel} resizeMode="contain" /></TouchableOpacity>
         <Text style={styles.name}>{name}</Text>
         <Text style={styles.desc}>{truncateDesc(desc)}</Text>
         <Text style={styles.seller}>Sold by: {seller}</Text>
@@ -43,7 +43,7 @@ const CartItems = ({
           <View style={styles.size}>
             <Text>Size: {size}</Text>
             <Image
-              source={icons.smallarrowdown}
+              source={icons.smallarrowDown}
               style={{
                 marginLeft: 10,
                 height: 4,
@@ -54,7 +54,7 @@ const CartItems = ({
           <View style={styles.quantity}>
             <Text>Qty: {quantity}</Text>
             <Image
-              source={icons.smallarrowdown}
+              source={icons.smallarrowDown}
               style={{
                 marginLeft: 10,
                 height: 4,
